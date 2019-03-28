@@ -13,8 +13,6 @@ def my_each(array)
   end
 end
 
-my_each(["Tim", "Tom", "Jim"]) do |name|
-  if name.start_with?("T")
-    puts "Hi, #{name}"
-  end
+my_each(collection) do |i|
+  puts i
 end
